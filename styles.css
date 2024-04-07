@@ -1,0 +1,83 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background: #2a2033;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Portfolio Item Styles */
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+/* Contact Form Styles (if applicable) */
+/* Add your contact form styles here */
+img {
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+    
+}
+
+.fa-envelope {
+    color: #007bff; /* Change the color */
+    font-size: 1.6em; /* Adjust the size */
+    margin-right: 5px;
+}
+hero-section {
+    background-image: url('large computer.jpg');
+    background-size: cover;  /* Cover the entire viewport */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+ul{
+    list-style-type: circle;
+}
